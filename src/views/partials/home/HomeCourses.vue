@@ -27,7 +27,7 @@ export default {
   methods: {
     get_courses(){
       let _this = this;
-      let url = 'https://daneshjooyar.com/wp-json/api/v2/courses/?include=3361086,3357000,3350404,3365320,3365313,3339339,458810';
+      let url = 'https://daneshjooyar.com/wp-json/api/v2/courses/?include=3374703,3361086,3357000,3350404,3365320,3365313,3339339,458810';
       fetch(url)
           .then(response => response.json())
           .then( (data) => {
